@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\CrushFire\\source\\repos\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CrushFire\\source\\repos\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\DataAccess\\Migrations\\20241210210736_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccess\\Migrations\\20241210210736_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A756EA55-B946-4D64-B051-885F64B53578}|\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0.csproj|c:\\users\\crushfire\\source\\repos\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A756EA55-B946-4D64-B051-885F64B53578}|\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0.csproj|solutionrelative:\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 292,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "20241210210736_initial.cs",
+              "DocumentMoniker": "C:\\Users\\CrushFire\\source\\repos\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\DataAccess\\Migrations\\20241210210736_initial.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20241210210736_initial.cs",
+              "ToolTip": "C:\\Users\\CrushFire\\source\\repos\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\DataAccess\\Migrations\\20241210210736_initial.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20241210210736_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T21:07:36.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\CrushFire\\source\\repos\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\appsettings.json",
               "RelativeDocumentMoniker": "\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\appsettings.json",
@@ -50,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Doctor.cs",
               "DocumentMoniker": "C:\\Users\\CrushFire\\source\\repos\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\DataAccess\\Entities\\Doctor.cs",
               "RelativeDocumentMoniker": "DataAccess\\Entities\\Doctor.cs",
@@ -62,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Analisi.cs",
               "DocumentMoniker": "C:\\Users\\CrushFire\\source\\repos\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\DataAccess\\Entities\\Analisi.cs",
               "RelativeDocumentMoniker": "DataAccess\\Entities\\Analisi.cs",
@@ -74,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MyDbContext.cs",
               "DocumentMoniker": "C:\\Users\\CrushFire\\source\\repos\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\DataAccess\\MyDbContext.cs",
               "RelativeDocumentMoniker": "DataAccess\\MyDbContext.cs",
@@ -86,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044FContext.cs",
               "DocumentMoniker": "C:\\Users\\CrushFire\\source\\repos\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044FContext.cs",
               "RelativeDocumentMoniker": "\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044FContext.cs",
@@ -98,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\CrushFire\\source\\repos\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\Program.cs",
               "RelativeDocumentMoniker": "\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2.0\\Program.cs",

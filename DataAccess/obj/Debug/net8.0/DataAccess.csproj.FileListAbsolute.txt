@@ -17,3 +17,4 @@ C:\Users\CrushFire\source\repos\Курсовая 2.0\DataAccess\bin\Debug\net8.0
 C:\Users\CrushFire\source\repos\Курсовая 2.0\DataAccess\bin\Debug\net8.0\Core.pdb
 C:\Users\CrushFire\source\repos\Курсовая 2.0\DataAccess\bin\Debug\net8.0\Application.pdb
 C:\Users\CrushFire\source\repos\Курсовая 2.0\DataAccess\obj\Debug\net8.0\DataAccess.csproj.Up2Date
+C:\Users\CrushFire\source\repos\Курсовая 2.0\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
