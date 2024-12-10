@@ -144,3 +144,4 @@ C:\Users\CrushFire\source\repos\Курсовая 2.0\Курсовая 2.0\bin\De
 C:\Users\CrushFire\source\repos\Курсовая 2.0\Курсовая 2.0\bin\Debug\net8.0\Core.pdb
 C:\Users\CrushFire\source\repos\Курсовая 2.0\Курсовая 2.0\bin\Debug\net8.0\DataAccess.pdb
 C:\Users\CrushFire\source\repos\Курсовая 2.0\Курсовая 2.0\obj\Debug\net8.0\Курсовая 2.0.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Курсовая 2.0\obj\Debug\net8.0\Курсовая 2.0.sourcelink.json
