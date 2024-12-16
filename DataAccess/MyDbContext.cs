@@ -44,7 +44,9 @@ public partial class MyDbContext : DbContext
 
             entity.ToTable("analisis");
 
-            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.Id).HasColumnName("id")
+                .HasDefaultValueSql("nextval('idanalisiscreater'::regclass)")
+                .HasColumnName("id");
             entity.Property(e => e.DataDownoald)
                 .HasDefaultValueSql("CURRENT_DATE")
                 .HasColumnName("data_downoald");

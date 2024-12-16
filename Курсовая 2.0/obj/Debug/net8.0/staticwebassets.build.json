@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qo1MDuwjz9N1/k85AibhlmLun8I2kq5UvA3waUF23pY=",
+  "Hash": "HlCfW2+df0e9KJ/OWu8OAuQ6ylpFj9+1UBYkv9oFcwk=",
   "Source": "Курсовая 2.0",
   "BasePath": "_content/Курсовая 2.0",
   "Mode": "Default",
@@ -1193,6 +1193,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\CrushFire\\source\\repos\\Курсовая 2.0\\Курсовая 2.0\\wwwroot\\uploads\\32_20241215191614.png",
+      "SourceId": "Курсовая 2.0",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CrushFire\\source\\repos\\Курсовая 2.0\\Курсовая 2.0\\wwwroot\\",
+      "BasePath": "_content/Курсовая 2.0",
+      "RelativePath": "uploads/32_20241215191614.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\32_20241215191614.png"
+    },
+    {
+      "Identity": "C:\\Users\\CrushFire\\source\\repos\\Курсовая 2.0\\Курсовая 2.0\\wwwroot\\uploads\\32_20241215191617.png",
+      "SourceId": "Курсовая 2.0",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\CrushFire\\source\\repos\\Курсовая 2.0\\Курсовая 2.0\\wwwroot\\",
+      "BasePath": "_content/Курсовая 2.0",
+      "RelativePath": "uploads/32_20241215191617.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\32_20241215191617.png"
     }
   ]
 }

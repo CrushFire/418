@@ -245,6 +245,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\CrushFire\\source\\repos\\Курсовая 2.0\\Курсовая 2.0\\wwwroot\\uploads\\32_20241215191614.png",
+      "PackagePath": "staticwebassets\\uploads\\32_20241215191614.png"
+    },
+    {
+      "Id": "C:\\Users\\CrushFire\\source\\repos\\Курсовая 2.0\\Курсовая 2.0\\wwwroot\\uploads\\32_20241215191617.png",
+      "PackagePath": "staticwebassets\\uploads\\32_20241215191617.png"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Курсовая 2.0.props",
       "PackagePath": "build\\Курсовая 2.0.props"
     },

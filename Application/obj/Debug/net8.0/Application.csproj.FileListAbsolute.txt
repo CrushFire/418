@@ -12,3 +12,9 @@ C:\Users\CrushFire\source\repos\Курсовая 2.0\Application\obj\Debug\net8.
 C:\Users\CrushFire\source\repos\Курсовая 2.0\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\CrushFire\source\repos\Курсовая 2.0\Application\obj\Debug\net8.0\Application.genruntimeconfig.cache
 C:\Users\CrushFire\source\repos\Курсовая 2.0\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Application\bin\Debug\net8.0\Core.dll
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Application\bin\Debug\net8.0\DataAccess.dll
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Application\bin\Debug\net8.0\Core.pdb
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Application\bin\Debug\net8.0\DataAccess.pdb
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Application\obj\Debug\net8.0\Application.sourcelink.json
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
