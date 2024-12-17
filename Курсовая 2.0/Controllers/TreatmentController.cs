@@ -72,9 +72,9 @@ namespace YourNamespace.Controllers
 
         // GET: api/Treatment
         [HttpGet]
-        public async Task<IActionResult> GetAllTreatments(int page = 1)
+        public async Task<IActionResult> GetAllTreatments()
         {
-            var treatments = await _treatmentService.GetAll(page);
+            var treatments = await _treatmentService.GetAll();
             return Ok(treatments);
         }
 

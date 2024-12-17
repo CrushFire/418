@@ -31,9 +31,9 @@ namespace WebAPI.Controllers
 
         // Получить список всех врачей с пагинацией
         [HttpGet]
-        public async Task<ActionResult<List<DoctorForOutDTO>>> GetAllDoctors(int page = 1)
+        public async Task<ActionResult<List<DoctorForOutDTO>>> GetAllDoctors()
         {
-            var doctors = await _doctorService.GetAllDoctor(page);
+            var doctors = await _doctorService.GetAllDoctor();
             return Ok(doctors);  // Возвращаем список врачей
         }
 

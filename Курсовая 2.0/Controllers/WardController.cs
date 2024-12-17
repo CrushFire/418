@@ -21,12 +21,12 @@ namespace YourNamespace.Controllers
 
         // GET: api/ward?page=1
         [HttpGet]
-        public async Task<IActionResult> GetAll(int page)
+        public async Task<IActionResult> GetAll()
         {
             try
             {
                 // Получаем список отделов с помощью сервиса
-                var wards = await _wardService.GetAll(page);
+                var wards = await _wardService.GetAll();
                 return Ok(wards); // Возвращаем 200 OK с данными
             }
             catch (Exception ex)

@@ -112,9 +112,9 @@ namespace Application.Services
             _context.SaveChanges();
         }
 
-        public async Task<List<PatientForOutDTO>> GetAll(int page)
+        public async Task<List<PatientForOutDTO>> GetAll()
         {
-            var patients = await _context.Set<Patient>().Skip((page - 1) * 25).Take(25).ToListAsync();
+            var patients = await _context.Set<Patient>().ToListAsync();
             List<PatientForOutDTO> patientsDTO = new List<PatientForOutDTO>();
             foreach (var p in patients)
             {

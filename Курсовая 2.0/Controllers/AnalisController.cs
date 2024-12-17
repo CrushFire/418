@@ -89,9 +89,9 @@ namespace Курсовая_2._0.Controllers
         }
 
         [HttpGet("upload")]
-        public async Task<IActionResult> GetAllFiles(int page)
+        public async Task<IActionResult> GetAllFiles()
         {
-            var temp = await _analisService.GetAllFiles(page);
+            var temp = await _analisService.GetAllFiles();
 
             return Ok(temp);
         }

@@ -22,9 +22,9 @@ namespace Application.Services
             _mapper = mapper;
         }
 
-        public async Task<List<WardForInOutDTO>> GetAll(int page)
+        public async Task<List<WardForInOutDTO>> GetAll()
         {
-            var wards = await _context.Set<Ward>().Skip((page - 1) * 25).Take(25).ToListAsync();
+            var wards = await _context.Set<Ward>().ToListAsync();
             List<WardForInOutDTO> wardsDTO = new List<WardForInOutDTO>();
             foreach (var w in wards)
             {

@@ -22,9 +22,9 @@ namespace Application.Services
             _mapper = mapper;
         }
 
-        public async Task<List<PlaceForOutDTO>> GetAllPlace(int page)
+        public async Task<List<PlaceForOutDTO>> GetAllPlace()
         {
-            var places = await _context.Set<Place>().Skip((page - 1) * 25).Take(25).OrderBy(x => x.IdPatient).ToListAsync();
+            var places = await _context.Set<Place>().OrderBy(x => x.IdPatient).ToListAsync();
             List<PlaceForOutDTO> placesDTO = new List<PlaceForOutDTO>();
             foreach(var p in places)
             {
@@ -117,13 +117,37 @@ namespace Application.Services
 
             // Save the changes to the database
             _context.SaveChanges();
-        }
-
+        }//Обновить время для c сегодняшняя дата для з завтрашняя дата
 
 
         public int Count()
         {
             return _context.Set<Place>().Count();
         }
+
+        public async Task<List<PlaceForOutDTO>> GetFreePlaces(decimal id)
+        {
+            var patient = _context.Set<Patient>().Find(id);
+            var ward = await _context.Set<Ward>().Where(x => x.Gender == patient.Gender).ToListAsync();
+            List<Place> freePlaces = new List<Place>();
+            List<PlaceForOutDTO> newFreePlaces = new List<PlaceForOutDTO>();
+            foreach (var w in ward)
+            {
+                freePlaces.AddRange(_context.Set<Place>().Where(x => x.Ward == w.Id && x.Status == false).ToList());
+            }
+
+            foreach(var f in freePlaces)
+            {
+                newFreePlaces.Add(_mapper.Map<PlaceForOutDTO>(f));
+            }
+
+            return newFreePlaces;//Вывести свободные места
+        }
+
+        public PlaceForOutDTO GetPlaceForPatient(decimal id)
+        {
+            var temp = _context.Set<Place>().Where(x => x.IdPatient == id).First();
+                return _mapper.Map<PlaceForOutDTO>(temp);
+        }//Вывести место за которым зареган пользователь
     }
 }

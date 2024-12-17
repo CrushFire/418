@@ -1,0 +1,10 @@
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Frontend\bin\Debug\Frontend.exe.config
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Frontend\bin\Debug\Frontend.exe
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Frontend\bin\Debug\Frontend.pdb
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Frontend\obj\Debug\Frontend.csproj.AssemblyReference.cache
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Frontend\obj\Debug\Frontend.Form1.resources
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Frontend\obj\Debug\Frontend.Properties.Resources.resources
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Frontend\obj\Debug\Frontend.csproj.GenerateResource.cache
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Frontend\obj\Debug\Frontend.csproj.CoreCompileInputs.cache
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Frontend\obj\Debug\Frontend.exe
+C:\Users\CrushFire\source\repos\Курсовая 2.0\Frontend\obj\Debug\Frontend.pdb

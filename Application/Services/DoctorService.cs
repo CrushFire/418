@@ -77,9 +77,9 @@ namespace Application.Services
             _context.SaveChanges();
         }
 
-        public async Task<List<DoctorForOutDTO>> GetAllDoctor(int page)
+        public async Task<List<DoctorForOutDTO>> GetAllDoctor()
         {
-            var doctors = await _context.Set<Doctor>().Skip((page - 1) * 25).Take(25).OrderBy(x => x.Id).ToListAsync();
+            var doctors = await _context.Set<Doctor>().OrderBy(x => x.Id).ToListAsync();
             List<DoctorForOutDTO> doctorsDTO = new List<DoctorForOutDTO>();
             foreach(var d in doctors)
             {

@@ -18,11 +18,11 @@ namespace YourNamespace.Controllers
 
         // GET: api/Place?page=1
         [HttpGet]
-        public async Task<IActionResult> GetAllPlace([FromQuery] int page)
+        public async Task<IActionResult> GetAllPlace()
         {
             try
             {
-                var places = await _placeService.GetAllPlace(page);
+                var places = await _placeService.GetAllPlace();
                 return Ok(places);
             }
             catch (Exception ex)
@@ -112,5 +112,20 @@ namespace YourNamespace.Controllers
             var count = _placeService.Count();
             return Ok(count);
         }
+
+        [HttpGet("FreePlaces")]
+        public IActionResult GetFreePlaces(decimal id)
+        {
+            var temp = _placeService.GetFreePlaces(id);
+            return Ok(temp);
+        }
+
+        [HttpGet("PatientPlace")]
+        public IActionResult GetPatientPlace(decimal id)
+        {
+            var temp = _placeService.GetPlaceForPatient(id);
+            return Ok(temp);
+        }
+
     }
 }

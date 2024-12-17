@@ -38,16 +38,11 @@ namespace YourNamespace.Controllers
 
         // GET api/anamnes?page=1
         [HttpGet]
-        public async Task<IActionResult> GetAllAnamnes([FromQuery] int page)
+        public async Task<IActionResult> GetAllAnamnes()
         {
-            if (page <= 0)
-            {
-                return BadRequest("Page number must be greater than 0.");
-            }
-
             try
             {
-                var anamnesisDTO = await _anamnesService.GetAll(page);
+                var anamnesisDTO = await _anamnesService.GetAll();
                 return Ok(anamnesisDTO);
             }
             catch (Exception ex)

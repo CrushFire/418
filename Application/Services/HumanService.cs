@@ -44,9 +44,9 @@ namespace Application.Services
             }
         }
 
-        public async Task<List<HumanForOutDTO>> GetAllAdmin(int page)
+        public async Task<List<HumanForOutDTO>> GetAllAdmin()
         {
-            var humans = await _context.Set<Human>().Where(x => x.Role == 0).Skip((page - 1) * 25).Take(25).OrderBy(x => x.Id).ToListAsync();
+            var humans = await _context.Set<Human>().Where(x => x.Role == 0).OrderBy(x => x.Id).ToListAsync();
             List<HumanForOutDTO> humansDTO = new List<HumanForOutDTO>();
             foreach(var h in humans)
             {

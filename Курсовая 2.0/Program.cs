@@ -23,6 +23,7 @@ builder.Services.AddScoped<AnamnesService>();
 builder.Services.AddScoped<TreatmentService>();
 builder.Services.AddScoped<PlaceService>();
 builder.Services.AddScoped<WardService>();
+builder.Services.AddScoped<AutorisationService>();
 
 builder.Services.AddControllers();
 

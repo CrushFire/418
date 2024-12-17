@@ -29,9 +29,9 @@ namespace Application.Services
         }
 
         // Метод для получения всех файлов из базы данных
-        public async Task<List<Analisi>> GetAllFiles(int page)
+        public async Task<List<Analisi>> GetAllFiles()
         {
-            return await _context.Set<Analisi>().Skip((page - 1) * 15).Take(15).ToListAsync();
+            return await _context.Set<Analisi>().ToListAsync();
         }
 
         public void AddFile(IFormFile uploadedFile, decimal idTreatment)

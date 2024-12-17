@@ -37,9 +37,9 @@ namespace Курсовая_2._0.Controllers
             /// </summary>
             /// <returns>Список пациентов</returns>
             [HttpGet]
-            public async Task<ActionResult<List<PatientForOutDTO>>> GetAllPatients(int page)
+            public async Task<ActionResult<List<PatientForOutDTO>>> GetAllPatients()
             {
-                var patients = await _patientService.GetAll(page);
+                var patients = await _patientService.GetAll();
                 return Ok(patients);
             }
 

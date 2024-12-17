@@ -20,21 +20,11 @@ namespace YourNamespace.Controllers
 
         // GET api/human/admin?page=1
         [HttpGet("admin")]
-        public async Task<IActionResult> GetAllAdmins([FromQuery] int page)
+        public async Task<IActionResult> GetAllAdmins()
         {
-            if (page <= 0)
-            {
-                return BadRequest("Page number must be greater than 0.");
-            }
-
             try
             {
-                var humans = await _humanService.GetAllAdmin(page);
-
-                if (humans == null || humans.Count == 0)
-                {
-                    return NotFound("No admin users found.");
-                }
+                var humans = await _humanService.GetAllAdmin();
 
                 return Ok(humans);
             }

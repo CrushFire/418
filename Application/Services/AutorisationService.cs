@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    public class Authorisation
+    public class AutorisationService
     {
         private readonly MyDbContext _context;
 
-        public Authorisation(MyDbContext context)
+        public AutorisationService(MyDbContext context)
         {
             _context = context;
         }
@@ -40,46 +40,46 @@ namespace Application.Services
             }
         }
 
-        public decimal CheckPatient(string phoneNumber, string password)
-        {
-            password = HashPasswordSHA128(password);
-            var patients = _context.Set<Patient>().ToList();
-            foreach (var p in patients)
-            {
-                if (p.PhoneNumber == phoneNumber && p.Passport == password)
-                {
-                    return p.Id;
-                }
-            }
-            return -1;
-        }
+        //public decimal CheckPatient(string phoneNumber, string password)
+        //{
+        //    password = HashPasswordSHA128(password);
+        //    var patients = _context.Set<Patient>().ToList();
+        //    foreach (var p in patients)
+        //    {
+        //        if (p.PhoneNumber == phoneNumber && p.Passport == password)
+        //        {
+        //            return p.Id;
+        //        }
+        //    }
+        //    return -1;
+        //}
 
-        public decimal CheckDoctor(decimal id, string password)
-        {
-            password = HashPasswordSHA128(password);
-            var doctors = _context.Set<Doctor>().ToList();
-            foreach(var d in doctors)
-            {
-                if(d.Id == id && d.Password == password)
-                {
-                    return d.Id;
-                }
-            }
-            return -1;
-        }
+        //public decimal CheckDoctor(decimal id, string password)
+        //{
+        //    password = HashPasswordSHA128(password);
+        //    var doctors = _context.Set<Doctor>().ToList();
+        //    foreach(var d in doctors)
+        //    {
+        //        if(d.Id == id && d.Password == password)
+        //        {
+        //            return d.Id;
+        //        }
+        //    }
+        //    return -1;
+        //}
 
-        public decimal CheckAdmin(decimal id, string password)
+        public Human CheckHuman(decimal id, string password)
         {
             password = HashPasswordSHA128(password);
             var admins = _context.Set<Human>().ToList();
             foreach(var a in admins)
             {
-                if(a.Id == id && a.Password == password && a.Role == 0)
+                if(a.Id == id && a.Password == password)
                 {
-                    return a.Id;
+                    return a;
                 }
             }
-            return -1;
+            return null;
         }
     }
 }
